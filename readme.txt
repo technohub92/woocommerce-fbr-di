@@ -1,5 +1,5 @@
 === FBR Digital Invoicing for WooCommerce ===
-Contributors: technohub
+Contributors: invoicehub, technohub
 Tags: fbr, digital invoicing, pral, pakistan, sales tax, sro 350, qr code, tax invoice
 Requires at least: 5.8
 Tested up to: 6.7
