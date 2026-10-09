@@ -13,7 +13,7 @@ class FBR_DI_Updater {
     public function __construct() {
         $this->plugin_slug = plugin_basename(FBR_DI_PLUGIN_FILE);
         $this->version = FBR_DI_VERSION;
-        $this->api_url = rtrim(get_option('fbr_di_base_url', 'https://ebcdisc.com/api'), '/');
+        $this->api_url = rtrim(get_option('fbr_di_base_url', ''), '/');
 
         add_filter('pre_set_site_transient_update_plugins', array($this, 'check_for_plugin_update'));
         add_filter('plugins_api', array($this, 'plugin_api_call'), 20, 3);

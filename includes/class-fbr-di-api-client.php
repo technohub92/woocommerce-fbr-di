@@ -11,7 +11,7 @@ class FBR_DI_API_Client {
     private $environment;
 
     public function __construct() {
-        $this->base_url = rtrim(get_option('fbr_di_base_url', 'https://ebcdisc.com/api'), '/');
+        $this->base_url = rtrim(get_option('fbr_di_base_url', ''), '/');
         $this->api_key = get_option('fbr_di_api_key', '');
         $this->environment = get_option('fbr_di_environment', 'sandbox');
     }

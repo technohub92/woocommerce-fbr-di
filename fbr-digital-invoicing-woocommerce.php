@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: FBR Digital Invoicing for WooCommerce
- * Plugin URI: https://ebcdisc.com/docs/api
+ * Plugin URI: https://technohub.pk/fbr-digital-invoicing
  * Description: Official Pakistani FBR PRAL Digital Invoicing (SRO 350/2024 & SRO 1832/2024) integration for WooCommerce. Automates digital fiscal invoices, verification QR codes, and buyer NTN/CNIC compliance.
  * Version: 1.0.0
- * Author: EBC DISC Technologies
- * Author URI: https://ebcdisc.com
+ * Author: TechnoHub
+ * Author URI: https://technohub.pk
  * Text Domain: fbr-digital-invoicing
  * Domain Path: /languages
  * Requires at least: 5.8

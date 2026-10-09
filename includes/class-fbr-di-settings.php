@@ -28,7 +28,7 @@ class FBR_DI_Settings {
     public function settings_tab_content() {
         $api_client = new FBR_DI_API_Client();
         $is_configured = $api_client->is_configured();
-        $portal_url = rtrim(str_replace('/api', '', get_option('fbr_di_base_url', 'https://ebcdisc.com')), '/');
+        $portal_url = rtrim(str_replace('/api', '', get_option('fbr_di_base_url', 'https://your-portal-domain.com')), '/');
 
         ?>
         <div class="fbr-di-settings-wrap" style="max-width: 900px; margin-top: 15px;">
@@ -130,9 +130,9 @@ class FBR_DI_Settings {
             'base_url' => array(
                 'name'     => __('Gateway Base API URL', 'fbr-digital-invoicing'),
                 'type'     => 'text',
-                'desc'     => __('Default: https://ebcdisc.com/api', 'fbr-digital-invoicing'),
+                'desc'     => __('e.g. https://your-domain.com/api', 'fbr-digital-invoicing'),
                 'id'       => 'fbr_di_base_url',
-                'default'  => 'https://ebcdisc.com/api',
+                'default'  => '',
                 'css'      => 'min-width: 400px;',
             ),
             'api_key' => array(
